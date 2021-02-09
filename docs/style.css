@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeebeb!important;
+}
+
+h1{
+    color: #ffb7ce;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+div.container{
+    background-color: #fff!important;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 16px 0 rgba(0,0,0,0.19);
+}
+
+
+#result{
+    background-color: #ffb7ce;
+    padding: 25px!important;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+button.btn{
+    color: #e85886;
+    background-color: #d7fffe;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 16px 0 rgba(0,0,0,0.19);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+div.weight-guide{
+    background-color: #d7fffe;
+}
+
+div.weight-guide h3{
+    color: #ffb7ce;
+    padding-top: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+div.weight-guide p{
+    color: #7b7b7b;
+}
+
+
+input{
+	border: none !important;
+	border-bottom: 1px solid #69b7d9 !important;
+	border-radius: 0px !important;
+	outline: none !important;
+}
+
+::placeholder{
+	color: #69b7d9!important;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}

@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>BMI Calculator</title>
 </head>
 <body>
+
+
+    <div class="container">
+        <div class="field">
+        <h1>BMI CALCULATOR</h1><br>
+        <p>Height in cm</p>
+        <input type="text" id="cm"><br><br>
+        <p>Weight in cm</p>
+        <input type="text" id="kg"><br><br>
+        <button class="btn" id="submit" type="submit" value="Calculate">Calculate</button>
+        <br><br>
+        </div>
+
+        <div id="result">
+
+        </div><br><br>
+
+        <div class="weight-guide">
+            <h3>BMI Weight Guide</h3><br>
+            <p>Under Weight = Less than 18.6</p><br>
+            <p>Normal Range = 18.6 and 24.9</p><br>
+            <p>Overweight = Greater than 24.9</p><br>
+        </div>
+
+    </div> 
+
+   
     
+    
+
+
+
+
+
+
+    
+
+<script src="BMI.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>     
 </body>
 </html>
