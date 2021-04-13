@@ -13,7 +13,7 @@ function bmiCalculator(){
  	bmi = bmi.toFixed(1);//converts every exponential or complex form of numbers to digits
     console.log(bmi);
     
-    document.getElementById('result').innerHTML = newPromt +" "+ "your BMI result is" +" "+ bmi;
+    document.getElementById('result').innerHTML = `${newPrompt} your BMI result is ${bmi}`;
 
 
 }
