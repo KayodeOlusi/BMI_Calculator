@@ -1,4 +1,4 @@
-var newPromt = prompt('Enter your name')
+var newPrompt = prompt('Enter your name')
 document.getElementById('submit').addEventListener('click',bmiCalculator);
 
 //the bmiCalculator Funcion
