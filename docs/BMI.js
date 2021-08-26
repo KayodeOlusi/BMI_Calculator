@@ -10,7 +10,7 @@ function bmiCalculator(){
     var bmi;
     var newCm = parseFloat(cm/100);
     bmi = kg / (newCm * newCm);
- 	bmi = bmi.toFixed(1);//converts every exponential or complex form of numbers to digits
+    bmi = bmi.toFixed(1);//converts every exponential or complex form of numbers to digits
     console.log(bmi);
     
     document.getElementById('result').innerHTML = `${newPrompt} your BMI result is ${bmi}`;
